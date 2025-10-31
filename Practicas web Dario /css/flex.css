@@ -1,0 +1,74 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0%;
+    padding: 0%;}
+
+    h2 { font-size: 32px;
+        padding: 16px 0px;}
+
+
+    h1 { text-align: center;
+        padding-bottom: 32px;
+        font-size: 40px;}
+
+    .card { background-color: #65c1a4;
+        padding: 80px 0px;}
+
+    .container { background-color: purple;
+        width: 100%;
+        min-height: 1px;
+        margin: auto;
+        display: flex;
+        flex-flow: column wrap;}
+
+    .items { background-color: whitesmoke;
+            width: 100%;
+            min-height: 100px;
+            text-align: center;
+            padding: 16px;
+            box-sizing: border-box; }
+
+    .items p { font-size:  18px;
+                line-height: 140%;
+                padding-bottom: 16px;
+                text-align: justify;}
+
+    .items img { width: 100%;
+                height: auto;}
+
+    .dos { align-self: flex-start;
+            }
+
+    /*Pantallas de 600px en adelante*/
+
+            @media only screen and (min-width:600px) { 
+
+                h1 { font-size: 56px; }
+                h2 { font-size: 40px;
+                    text-decoration: solid;}
+                .items p { font-size: 24px;}
+            }
+
+
+    /*Pantallas de 992px en adelante*/
+
+        @media only screen and (min-width:992px) { 
+
+            .container { flex-flow: row wrap;}
+            .items { width: 33.33%;}
+                }
+
+        /*Pantallas de 1380px en adelante*/
+
+        @media only screen and (min-width:1380px) { 
+
+            .container { width: 70%;
+                        justify-content: space-between;
+                        border-top-left-radius: 16px;
+                        border-top-right-radius: 16px;
+                        background-color: transparent}
+
+            .items { border-radius: 16px;
+                    width: 32%;}
+
+                }
