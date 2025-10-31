@@ -15,7 +15,7 @@ header
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);}
 
 header h1 
-    {font-size: 50px;
+    {font-size: 60px;
     margin-bottom: 0.5rem;}
 
 header p 
@@ -23,6 +23,8 @@ header p
     opacity: 0.9;}
 
 /* ==== SECCIONES ==== */
+h3
+{color: #ffffff;}
 section 
     {max-width: 900px;
     text-align: center;
@@ -32,6 +34,11 @@ section
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;}
+    .comparacion
+    {display: flex;
+    justify-content: center;
+    gap: 50px;}
+    .comparacion div{width: 50%;}
 
 section:hover 
     {transform: translateY(-5px);
