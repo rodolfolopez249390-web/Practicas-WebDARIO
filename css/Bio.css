@@ -8,7 +8,7 @@
 body 
     {font-family: 'Oswald', sans-serif;
     line-height: 1.6;
-    background-color: #111;
+    background-color: #111111;
     color: #eee;
     padding: 20px;}
 
@@ -88,20 +88,4 @@ section img
     max-width: 100%;  
     height: auto;}
 
-    /* Contenedor de los álbumes */
-.albumes {
-    display: flex;             /* convierte el contenedor en flex */
-    justify-content: center;   /* centra las imágenes horizontalmente */
-    gap: 20px;                 /* espacio entre las imágenes */
-    flex-wrap: wrap;           /* permite que las imágenes bajen en pantallas pequeñas */
-    margin: 15px 0;
-}
-
-/* Estilo individual de cada imagen */
-.album {
-
-    height: auto;              /* mantiene proporción */
-    border-radius: 10px;       /* bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* sombra */
-}
-
+    

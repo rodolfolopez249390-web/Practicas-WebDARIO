@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <!--FUENTES-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--Enlace al CSS-->
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+    <header class="cabecera">
+        <i class="bi bi-arrow-through-heart-fill"></i>
+    </header>
+    <main class="principal">
+        <section class="contenido">
+            <div class="items uno">
+                <h2>¿Dudas en la inscripción?: Contáctanos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, molestias assumenda eum animi asperiores tempore labore, earum ullam similique incidunt deserunt corporis rerum cum. Suscipit autem vitae hic earum odio!</p>
+                <a href="#"><i class="bi bi-whatsapp"></i> Enviar mensaje </a>
+            
+            </div>
+
+            <div class="items">
+                <form action="enviar.php" method="post">
+                    <input type="text"placeholder="Escribe tu nombre" pattern=".{8,}">
+                    <input type="tel" name="" id="" placeholder="Celular 10 digitos">
+                    
+                    <input list="browsers" placeholder="¿Quien eres?"/>
+                    <datalist id="browsers">
+                    <option value="Estudiante"></option>
+                    <option value="Egresado"></option>
+                    <option value="Aspirante"></option>
+                    <option value="Empleado"></option>
+
+                    </datalist>
+                    <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
+                    <input type="submit" value="Contactar">
+
+
+
+                </form>
+
+
+                </form>
+            </div>
+
+
+        </section>
+       
+
+    </main>
+    <footer class="pie">
+
+        <p>Copyrights &copy; 2025</p>
+
+    </footer>
+    
+</body>
+</html>
