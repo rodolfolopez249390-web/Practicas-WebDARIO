@@ -1,4 +1,4 @@
-/*Selector universal*/
+/*DOCUMENTO CSS*/
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +9,14 @@
   body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    background-color: #f4f79c;
+    background-color: #ed9521;
     color: #333;
     padding: 20px;
   }
   
   header {
     text-align: center;
-    background-color: #549ae0;
+    background-color: #00579e;
     color: #fff;
     padding: 30px 10px;
     margin-bottom: 20px;
@@ -55,7 +55,7 @@
   
   footer {
     text-align: center;
-    background-color: #549ae0;
+    background-color: #00579e;
     color: #fff;
     padding: 15px;
     margin-top: 30px;
